@@ -1,3 +1,10 @@
+/* ==UserStyle==
+@name           TweetDeck URL Preview Compact
+@namespace      github.com/openstyles/stylus
+@version        1.0.2
+@description    TweetDeck URL Preview Compact
+@author         micachi
+==/UserStyle== */
 @-moz-document domain("tweetdeck.twitter.com") {
     .r-13l2t4g {
         display: none;
@@ -20,6 +27,8 @@
     .media-size-medium,
     .br--14 {
         border-radius: 8px;
+        padding-top: 4px !important;
+        padding-bottom: 4px !important;
     }
     .r-1b43r93 {
         font-size: 13px;
